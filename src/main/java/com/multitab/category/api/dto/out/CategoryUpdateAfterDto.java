@@ -5,6 +5,6 @@ public class CategoryUpdateAfterDto {
     private Long id;
     private String categoryName;
     private String categoryCode;
-    
+    private String imageUrl;
 
 }

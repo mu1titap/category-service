@@ -16,6 +16,7 @@ public class TopCategoryResponseDto {
     private String topCategoryName;
     private String topCategoryCode;
     private CategoryType categoryType;
+    private String imageUrl;
 
     public TopCategoryResponseVo toVo() {
         return TopCategoryResponseVo.builder()
@@ -23,6 +24,7 @@ public class TopCategoryResponseDto {
             .topCategoryName(topCategoryName)
             .topCategoryCode(topCategoryCode)
             .categoryType(categoryType)
+            .imageUrl(imageUrl)
             .build();
     }
 

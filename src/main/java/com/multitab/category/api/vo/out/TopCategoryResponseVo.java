@@ -14,6 +14,7 @@ public class TopCategoryResponseVo {
     private String topCategoryCode;
     private String topCategoryName;
     private CategoryType categoryType;
+    private String imageUrl;
 
 
 }

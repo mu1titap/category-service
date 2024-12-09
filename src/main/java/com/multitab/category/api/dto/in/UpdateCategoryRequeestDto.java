@@ -18,6 +18,7 @@ public class UpdateCategoryRequeestDto {
     private String categoryCode;
     private String categoryName;
     private Integer categoryOrder;
+    private String imageUrl;
 
     public static UpdateCategoryRequeestDto of(UpdateCategoryRequestVo updateCategoryRequestVo) {
         return UpdateCategoryRequeestDto.builder()
@@ -25,6 +26,7 @@ public class UpdateCategoryRequeestDto {
             .categoryCode(updateCategoryRequestVo.getCategoryCode())
             .categoryName(updateCategoryRequestVo.getCategoryName())
             .categoryOrder(updateCategoryRequestVo.getCategoryOrder())
+            .imageUrl(updateCategoryRequestVo.getImageUrl())
             .build();
     }
 
@@ -34,6 +36,7 @@ public class UpdateCategoryRequeestDto {
             .categoryCode(categoryCode)
             .categoryName(categoryName)
             .categoryOrder(categoryOrder)
+            .imageUrl(imageUrl)
             .build();
     }
 

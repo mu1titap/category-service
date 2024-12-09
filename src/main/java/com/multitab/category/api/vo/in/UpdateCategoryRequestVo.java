@@ -10,4 +10,5 @@ public class UpdateCategoryRequestVo {
     private String categoryCode;
     private String categoryName;
     private Integer categoryOrder;
+    private String imageUrl;
 }

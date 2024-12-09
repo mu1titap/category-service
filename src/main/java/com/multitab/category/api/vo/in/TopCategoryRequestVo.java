@@ -10,5 +10,6 @@ public class TopCategoryRequestVo {
 
     private String topCategoryName;
     private CategoryType categoryType;
+    private String imageUrl;
 
 }
